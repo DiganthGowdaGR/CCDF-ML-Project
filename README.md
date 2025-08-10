@@ -1,4 +1,5 @@
-# Credit Card Fraud Detection 💳🔍
+#Hey Hi, I'm Sharath
+# CCDF 💳🔍
 
 ## 📌 Overview
 This project detects **fraudulent credit card transactions** using **Logistic Regression**.  
@@ -13,6 +14,7 @@ A **Streamlit web application** is also provided, allowing users to upload their
   - `1` → Fraudulent transaction  
 
 ## ⚙️ Data Preprocessing
+- For data cleaning file Open Data Clean GC( Google Colab) file 
 - Separated legitimate & fraudulent transactions
 - Handled class imbalance by **undersampling** legitimate transactions
 - Split data into **train & test sets**
@@ -35,6 +37,7 @@ A **Streamlit web application** is also provided, allowing users to upload their
 
 ## 📌 How to Run Locally
 1. Clone the repository  
+In terminal run : streamlit run test.py
    ```bash
    git clone https://github.com/DiganthGowdaGR/CreditCardFraudDetection.git
    cd CreditCardFraudDetection
